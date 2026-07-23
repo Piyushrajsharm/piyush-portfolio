@@ -1,0 +1,310 @@
+{
+  "person": {
+    "name": "Piyush",
+    "fullName": "Piyush Raj Sharma",
+    "initials": "PR",
+    "headline": "Future Data Analyst",
+    "roles": ["Future Data Analyst", "AI Enthusiast", "Problem Solver"],
+    "tagline": "I turn raw information into clear decisions, polished dashboards, and practical AI-assisted workflows.",
+    "location": "Delhi, India",
+    "email": "piyushrajsharma969@gmail.com",
+    "age": "21",
+    "education": "Data Analytics Learner",
+    "resumeUrl": "/resume.pdf",
+    "onlineResumeUrl": "/resume",
+    "narration": "Welcome! I am Piyush Raj Sharma — a driven Data Analyst and AI Strategist on a relentless mission to bridge the gap between raw data, cutting-edge machine learning, and high-impact business decisions. I don't just process numbers — I extract intelligence, build predictive workflows, and architect powerful visual dashboards that transform complex chaos into absolute clarity. Step into my digital engine and see how data becomes power.",
+    "githubUsername": "Piyushrajsharm",
+    "leetcodeUsername": "Piyushrajsharm",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/piyush-raj-sharma-1b64283a0",
+      "github": "https://github.com/Piyushrajsharm",
+      "instagram": "https://www.instagram.com/piyush._404?igsh=MXUxMTRnbnI1dHM3ZQ=="
+    }
+  },
+  "navigation": [
+    { "label": "Intro", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Timeline", "href": "#timeline" },
+    { "label": "Resume", "href": "#resume" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "summary": [
+      "I am building a career at the intersection of data analytics, artificial intelligence, and high-level digital product design. My focus is simple: dissect complex business challenges, organize empirical evidence, and deliver clear, actionable intelligence.",
+      "I engineer production-grade dashboards, clean SQL pipelines, Python data workflows, statistical models, and practical AI applications. I care deeply about presentation and clarity, because data becomes truly powerful only when stakeholders can understand and act on it immediately.",
+      "My mission is to become a high-impact Data Analyst and AI Specialist who combines strategic business intuition, rigorous technical execution, and automation to solve meaningful global problems."
+    ],
+    "interests": ["Data Storytelling", "AI Workflows & NLP", "Business Intelligence", "Clean UI Engineering"],
+    "strengths": ["Analytical Rigor", "Relentless Consistency", "Problem Solving", "Strategic Communication"],
+    "motivators": ["Building from Scratch", "Measurable Impact", "High-Performance Systems", "Intelligent Automation"]
+  },
+  "stats": [
+    { "label": "Age", "value": 21, "suffix": "" },
+    { "label": "Skills Learned", "value": 15, "suffix": "+" },
+    { "label": "Projects Completed", "value": 10, "suffix": "+" },
+    { "label": "Certificates", "value": 6, "suffix": "+" },
+    { "label": "Coding Hours", "value": 650, "suffix": "+" }
+  ],
+  "skills": [
+    { "name": "SQL", "category": "Analytics", "proficiency": 88, "description": "Cleaning, complex joins, subqueries, aggregations, window functions, and case-based analysis." },
+    { "name": "Python", "category": "Programming", "proficiency": 84, "description": "Automation, data workflows, scripting, analytical modeling, and custom tools." },
+    { "name": "Power BI", "category": "Visualization", "proficiency": 82, "description": "Interactive executive dashboards, DAX modeling, report architecture, and KPI storytelling." },
+    { "name": "Excel", "category": "Analytics", "proficiency": 86, "description": "Pivot tables, advanced formulas, dynamic charts, analytical models, and executive reporting." },
+    { "name": "Pandas", "category": "Data Science", "proficiency": 78, "description": "Data wrangling, cleaning, grouping, merging, reshaping, and exploratory analysis." },
+    { "name": "NumPy", "category": "Data Science", "proficiency": 72, "description": "Vectorized computations, array manipulations, and analytical computation foundations." },
+    { "name": "Machine Learning", "category": "AI", "proficiency": 68, "description": "Supervised modeling, evaluation metrics, feature engineering, and recommendation workflows." },
+    { "name": "Statistics", "category": "Analytics", "proficiency": 76, "description": "Distributions, correlation, hypothesis testing, and quantitative reasoning." },
+    { "name": "AI", "category": "AI", "proficiency": 80, "description": "Prompt engineering, NLP workflow design, AI-assisted analytics, and task automation." },
+    { "name": "Tableau", "category": "Visualization", "proficiency": 65, "description": "Visual analytics dashboards, calculated fields, parameters, and interactive stories." },
+    { "name": "HTML", "category": "Frontend", "proficiency": 82, "description": "Accessible, semantic web structure for modern engineering interfaces." },
+    { "name": "CSS", "category": "Frontend", "proficiency": 78, "description": "Responsive layouts, glassmorphism aesthetics, keyframe animations, and custom styling." },
+    { "name": "JavaScript", "category": "Frontend", "proficiency": 74, "description": "Dynamic web interactivity, asynchronous data handling, and client-side logic." },
+    { "name": "React", "category": "Frontend", "proficiency": 70, "description": "Component-driven applications, state management, and modern interactive web experiences." },
+    { "name": "Git", "category": "Workflow", "proficiency": 73, "description": "Version control, branch management, collaborative workflows, and GitHub repositories." }
+  ],
+  "projects": [
+    {
+      "id": "sales-dashboard",
+      "title": "Sales Analytics Dashboard",
+      "kicker": "Power BI + SQL",
+      "description": "A premium executive dashboard that reveals revenue, region, customer and product performance at a glance.",
+      "challenge": "Raw sales exports were scattered, inconsistent and hard to explain to non-technical stakeholders.",
+      "solution": "Cleaned the data model in SQL, designed a clear KPI hierarchy, and built an interactive Power BI dashboard with drillable views.",
+      "features": ["Revenue trend analysis", "Region and product filters", "KPI scorecards", "Executive summary view"],
+      "metrics": ["35% faster weekly reporting", "12 core KPIs", "5 dashboard pages"],
+      "techStack": ["SQL", "Power BI", "Excel", "DAX"],
+      "timeline": "2 weeks",
+      "repository": "https://github.com/Piyushrajsharm/sales-dashboard",
+      "liveDemo": "https://github.com/Piyushrajsharm/sales-dashboard",
+      "caseStudy": "https://github.com/Piyushrajsharm/sales-dashboard"
+    },
+    {
+      "id": "resume-analyzer",
+      "title": "AI Resume Analyzer",
+      "kicker": "AI + NLP",
+      "description": "An AI-assisted resume review tool that compares candidate resumes with job descriptions and surfaces actionable improvement signals.",
+      "challenge": "Applicants often miss keyword gaps, weak phrasing, and role alignment issues prior to application.",
+      "solution": "Built an automated NLP scoring workflow that parses text, calculates keyword fit, and returns prioritized feedback.",
+      "features": ["Role-fit score", "Keyword gap analysis", "Rewrite suggestions", "Readable feedback report"],
+      "metrics": ["8 scoring categories", "Instant feedback", "Reusable prompt system"],
+      "techStack": ["Python", "NLP", "AI", "React"],
+      "timeline": "3 weeks",
+      "repository": "https://github.com/Piyushrajsharm/ai-resume-analyzer",
+      "liveDemo": "https://github.com/Piyushrajsharm/ai-resume-analyzer",
+      "caseStudy": "https://github.com/Piyushrajsharm/ai-resume-analyzer"
+    },
+    {
+      "id": "movie-recommender",
+      "title": "Movie Recommendation System",
+      "kicker": "ML + Python",
+      "description": "A content-based recommendation engine that suggests movies based on mathematical similarity patterns and user choices.",
+      "challenge": "Recommendation logic needed to feel transparent and explainable while delivering accurate matches.",
+      "solution": "Implemented TF-IDF feature extraction, cosine similarity metrics, and a clean Streamlit interface.",
+      "features": ["Similarity ranking", "Genre-aware suggestions", "Readable model explanation", "Searchable movie catalog"],
+      "metrics": ["4 model iterations", "5K+ movie records", "Sub-second suggestions"],
+      "techStack": ["Python", "Pandas", "Scikit-learn", "Streamlit"],
+      "timeline": "10 days",
+      "repository": "https://github.com/Piyushrajsharm/movie-recommender",
+      "liveDemo": "https://github.com/Piyushrajsharm/movie-recommender",
+      "caseStudy": "https://github.com/Piyushrajsharm/movie-recommender"
+    },
+    {
+      "id": "customer-segmentation",
+      "title": "Customer Segmentation",
+      "kicker": "Analytics + ML",
+      "description": "A clustering analysis project that groups customers by behavioral signals to drive targeted marketing and retention strategies.",
+      "challenge": "Broad customer segments were ineffective for targeted campaign planning and loyalty programs.",
+      "solution": "Engineered RFM metrics, executed K-Means clustering, profiled segments, and defined clear business actions.",
+      "features": ["RFM features", "Cluster profiling", "Segment cards", "Marketing recommendations"],
+      "metrics": ["4 core segments", "9 behavior signals", "Action-first summary"],
+      "techStack": ["Python", "Pandas", "Machine Learning", "Statistics"],
+      "timeline": "2 weeks",
+      "repository": "https://github.com/Piyushrajsharm/customer-segmentation",
+      "liveDemo": "https://github.com/Piyushrajsharm/customer-segmentation",
+      "caseStudy": "https://github.com/Piyushrajsharm/customer-segmentation"
+    },
+    {
+      "id": "stock-prediction",
+      "title": "Stock Market Prediction",
+      "kicker": "Time Series",
+      "description": "A time-series analysis exploring historical price trends, statistical indicators, and transparent model limits.",
+      "challenge": "Financial forecasting models often obscure risk factors and data assumptions.",
+      "solution": "Engineered moving averages and trend indicators, compared baseline models, and communicated confidence intervals clearly.",
+      "features": ["Trend charts", "Model comparison", "Prediction intervals", "Risk notes"],
+      "metrics": ["3 baseline models", "Clean visual report", "Reusable notebook"],
+      "techStack": ["Python", "Pandas", "NumPy", "Statistics"],
+      "timeline": "12 days",
+      "repository": "https://github.com/Piyushrajsharm/stock-market-prediction",
+      "liveDemo": "https://github.com/Piyushrajsharm/stock-market-prediction",
+      "caseStudy": "https://github.com/Piyushrajsharm/stock-market-prediction"
+    },
+    {
+      "id": "sql-cleaning",
+      "title": "SQL Data Cleaning Lab",
+      "kicker": "SQL Systems",
+      "description": "A dedicated SQL repository transforming dirty, unstructured operational data into audit-ready datasets.",
+      "challenge": "Source data contained duplicates, inconsistent timestamps, null values, and unstandardized fields.",
+      "solution": "Developed modular SQL scripts using CTEs, window functions, and validation checks for automated quality assurance.",
+      "features": ["Deduplication", "Date standardization", "Null handling", "Validation queries"],
+      "metrics": ["18 cleaning rules", "Reusable SQL script", "Audit-ready notes"],
+      "techStack": ["SQL", "Excel", "Data Quality"],
+      "timeline": "1 week",
+      "repository": "https://github.com/Piyushrajsharm/sql-data-cleaning",
+      "liveDemo": "https://github.com/Piyushrajsharm/sql-data-cleaning",
+      "caseStudy": "https://github.com/Piyushrajsharm/sql-data-cleaning"
+    },
+    {
+      "id": "powerbi-dashboard",
+      "title": "Interactive Power BI Dashboard",
+      "kicker": "BI Storytelling",
+      "description": "A report experience designed for fast scanning, executive summaries and meaningful drilldowns.",
+      "challenge": "Users needed both a quick KPI overview and the ability to explore root causes.",
+      "solution": "Structured the dashboard around decision layers: snapshot, diagnosis, drilldown and action.",
+      "features": ["Dynamic slicers", "Drill-through pages", "KPI cards", "Insight annotations"],
+      "metrics": ["6 drill paths", "10 KPIs", "Reusable theme"],
+      "techStack": ["Power BI", "DAX", "Excel"],
+      "timeline": "9 days",
+      "repository": "https://github.com/piyushrajsharma/powerbi-dashboard",
+      "liveDemo": "#projects",
+      "caseStudy": "#projects"
+    },
+    {
+      "id": "student-performance",
+      "title": "Student Performance Dashboard",
+      "kicker": "Education Analytics",
+      "description": "A dashboard that highlights academic trends, risk indicators and improvement opportunities.",
+      "challenge": "Performance data needed to become usable for mentors, not just stored in spreadsheets.",
+      "solution": "Built a clean analysis flow from marks and attendance to risk groups and intervention priorities.",
+      "features": ["Performance bands", "Subject comparison", "Attendance signals", "Risk highlights"],
+      "metrics": ["3 risk levels", "8 subject views", "Clear action notes"],
+      "techStack": ["Excel", "Power BI", "Statistics"],
+      "timeline": "1 week",
+      "repository": "https://github.com/piyushrajsharma/student-performance-dashboard",
+      "liveDemo": "#projects",
+      "caseStudy": "#projects"
+    },
+    {
+      "id": "ecommerce-analytics",
+      "title": "E-Commerce Analytics",
+      "kicker": "Product Analytics",
+      "description": "An analytics case study covering acquisition, revenue, conversion and customer behavior.",
+      "challenge": "The business question required connecting marketing, sales and retention signals.",
+      "solution": "Modeled the funnel, identified friction points and presented prioritized growth experiments.",
+      "features": ["Funnel analysis", "Cohort view", "Category performance", "Experiment backlog"],
+      "metrics": ["5 funnel stages", "7 growth ideas", "Executive summary"],
+      "techStack": ["SQL", "Python", "Power BI", "Excel"],
+      "timeline": "2 weeks",
+      "repository": "https://github.com/piyushrajsharma/ecommerce-analytics",
+      "liveDemo": "#projects",
+      "caseStudy": "#projects"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2026",
+      "title": "Portfolio and Analytics Brand",
+      "type": "Achievement",
+      "description": "Built a polished digital introduction designed for recruiters and professional storytelling."
+    },
+    {
+      "year": "2025",
+      "title": "Data Analytics Projects",
+      "type": "Projects",
+      "description": "Completed dashboard, SQL, Python and machine-learning case studies with business-focused summaries."
+    },
+    {
+      "year": "2024",
+      "title": "AI and Machine Learning Foundations",
+      "type": "Courses",
+      "description": "Studied statistics, model evaluation, prompt design and practical AI-assisted workflows."
+    },
+    {
+      "year": "2023",
+      "title": "Programming and Web Foundations",
+      "type": "Education",
+      "description": "Built a base in Python, JavaScript, HTML, CSS, Git and analytical problem solving."
+    }
+  ],
+  "certifications": [
+    { "title": "Data Analytics Foundations", "issuer": "Professional Learning", "year": "2025" },
+    { "title": "SQL for Data Analysis", "issuer": "Project Certificate", "year": "2025" },
+    { "title": "Power BI Dashboard Design", "issuer": "Professional Learning", "year": "2025" },
+    { "title": "Python for Data Science", "issuer": "Professional Learning", "year": "2024" },
+    { "title": "Machine Learning Basics", "issuer": "Professional Learning", "year": "2024" },
+    { "title": "Excel Analytics", "issuer": "Professional Learning", "year": "2024" }
+  ],
+  "testimonials": [
+    {
+      "quote": "Piyush explains data clearly and thinks carefully about how the final story will be understood.",
+      "author": "Project Reviewer",
+      "role": "Analytics Mentor"
+    },
+    {
+      "quote": "His work shows patience, polish and a strong instinct for turning messy inputs into structured outputs.",
+      "author": "Peer Collaborator",
+      "role": "Student Project Team"
+    },
+    {
+      "quote": "A promising analyst with a product mindset and visible attention to detail.",
+      "author": "Career Coach",
+      "role": "Portfolio Review"
+    }
+  ],
+  "ambientTracks": [
+    { "id": "aurora", "name": "Aurora Pulse", "mood": "Slow glass pad" },
+    { "id": "signal", "name": "Signal Bloom", "mood": "Soft digital shimmer" },
+    { "id": "focus", "name": "Deep Focus", "mood": "Low cinematic bed" }
+  ],
+  "presenterChapters": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "headline": "Mastering Data & AI Intelligence",
+      "script": "Welcome! I am Piyush Raj Sharma — a driven Data Analyst and AI Strategist on a mission to bridge raw data, machine learning, and high-impact decisions. I extract intelligence, engineer predictive workflows, and build visual dashboards that turn complex chaos into absolute clarity. Step into my portfolio and witness data transformed into power.",
+      "accent": "#67e8f9",
+      "target": "#home"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "headline": "Engineering Actionable Insights",
+      "script": "My methodology fuses technical discipline with relentless execution. By uniting advanced SQL, statistical modeling, and Python automation with an intuitive UI design mindset, I build analytics solutions that solve real-world industry bottlenecks and drive measurable competitive growth.",
+      "accent": "#a78bfa",
+      "target": "#about"
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "headline": "High-Performance Tooling",
+      "script": "My toolkit is engineered for speed, accuracy, and depth. From complex SQL window functions and Python data pipelines using Pandas and NumPy, to interactive Power BI dashboards, machine learning algorithms, and modern React interfaces — I turn complex tech stacks into high-performing data products.",
+      "accent": "#6ee7ff",
+      "target": "#skills"
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "headline": "Verified Case Studies & Output",
+      "script": "Every project in this portfolio proves real-world problem solving. Explore executive sales dashboards, AI-assisted NLP resume review systems, content-based recommendation engines, and production SQL cleaning pipelines — each backed by architectural rigor and verified quantitative metrics.",
+      "accent": "#ffffff",
+      "target": "#projects"
+    },
+    {
+      "id": "resume",
+      "label": "Resume",
+      "headline": "Recruiter Matrix & Credentials",
+      "script": "Inspect my complete trajectory and verified credentials. From real-world case study execution to certifications in Data Analytics, SQL, and Power BI report architecture — every entry demonstrates consistency, precision, and immediate readiness to deliver value in high-growth analytics teams.",
+      "accent": "#93c5fd",
+      "target": "#resume"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "headline": "Let's Build Something Extraordinary",
+      "script": "Ready to unlock the true power of your data? Whether you're looking to recruit a high-impact Data Analyst, collaborate on AI projects, or initiate a technical dialogue — let's connect right now and build the future together.",
+      "accent": "#c4b5fd",
+      "target": "#contact"
+    }
+  ]
+}

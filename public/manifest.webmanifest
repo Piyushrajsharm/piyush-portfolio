@@ -1,0 +1,31 @@
+{
+  "name": "Piyush Raj Sharma Portfolio",
+  "short_name": "Piyush Portfolio",
+  "description": "A premium digital introduction for Piyush Raj Sharma, Future Data Analyst and AI Enthusiast.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "url": "/#projects",
+      "description": "View portfolio projects"
+    },
+    {
+      "name": "Contact",
+      "url": "/#contact",
+      "description": "Contact Piyush"
+    }
+  ]
+}
