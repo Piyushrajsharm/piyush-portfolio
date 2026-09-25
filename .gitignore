@@ -1,8 +1,4 @@
 node_modules
-.next
-out
-*.log
-.chrome-*
-.edge-*
-qa-home-*.png
-.env*.local
+dist
+.vite
+*.local
