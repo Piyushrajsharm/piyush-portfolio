@@ -1,7 +1,6 @@
 import { FadeIn } from '../components/FadeIn'
 import { ContactButton } from '../components/ContactButton'
-import { Magnet } from '../components/Magnet'
-import { ElectricPortrait } from '../components/ElectricPortrait'
+import { ThreeDCharacter } from '../components/ThreeDCharacter'
 
 export function HeroSection() {
   const navLinks = [
@@ -53,17 +52,10 @@ export function HeroSection() {
         </FadeIn>
       </div>
 
-      {/* Central Portrait with Magnet & Interactive Electric Lightning Canvas */}
-      <div className="relative my-4 sm:my-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2 z-10 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[410px] sm:bottom-0 sm:top-auto sm:translate-y-0 mx-auto pointer-events-auto">
-        <FadeIn delay={0.4} y={30}>
-          <Magnet
-            padding={150}
-            strength={3}
-            activeTransition="transform 0.3s ease-out"
-            inactiveTransition="transform 0.6s ease-in-out"
-          >
-            <ElectricPortrait imageSrc="/images/piyush_hero.jpg" />
-          </Magnet>
+      {/* Central 3D Character in Motion with Three.js WebGL & Volumetric Pixels */}
+      <div className="relative my-2 sm:my-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2 z-10 w-[320px] sm:w-[400px] md:w-[480px] lg:w-[540px] sm:bottom-0 sm:top-auto sm:translate-y-0 mx-auto pointer-events-auto">
+        <FadeIn delay={0.3} y={30}>
+          <ThreeDCharacter imageSrc="/images/piyush_hero.jpg" />
         </FadeIn>
       </div>
 
