@@ -4,91 +4,105 @@ import { AnimatedText } from '../components/AnimatedText'
 
 export function AboutSection() {
   const paragraphText =
-    "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!"
+    'Data Science & Analytics undergraduate with hands-on experience in SQL, Python, Power BI, Advanced Excel, data cleaning, ETL, exploratory data analysis, data modeling, KPI reporting, dashboard development, statistical analysis, machine learning and business intelligence. Built analytics projects spanning sales reporting, churn analysis, NLP resume matching and time-series forecasting. Completed Deloitte and Tata Group simulations focused on anomaly detection, customer risk profiling, and executive insights.'
+
+  const highlights = [
+    {
+      value: '5+',
+      label: 'End-to-End Projects',
+      detail: 'Power BI, Python, ML, NLP & ETL',
+      color: 'border-cyan-500/30 bg-cyan-500/5 text-cyan-400',
+    },
+    {
+      value: '3',
+      label: 'Industry Simulations',
+      detail: 'Deloitte Forensics & Tata Group',
+      color: 'border-purple-500/30 bg-purple-500/5 text-purple-400',
+    },
+    {
+      value: '7+',
+      label: 'Verified Certifications',
+      detail: 'SQL, Python, DAX & Data Science',
+      color: 'border-emerald-500/30 bg-emerald-500/5 text-emerald-400',
+    },
+    {
+      value: 'BCA',
+      label: 'IGNOU Delhi',
+      detail: 'Data & Computing Focus (2024–27)',
+      color: 'border-blue-500/30 bg-blue-500/5 text-blue-400',
+    },
+  ]
 
   return (
     <section
       id="about"
       className="relative min-h-screen flex flex-col justify-center items-center px-5 sm:px-8 md:px-10 py-20 bg-[#0C0C0C] overflow-hidden"
     >
-      {/* Decorative 3D Images */}
-      {/* Top-left: Moon icon */}
-      <div className="absolute top-[4%] left-[1%] sm:left-[2%] md:left-[4%] pointer-events-none z-10">
-        <FadeIn delay={0.1} x={-80} y={0} duration={0.9}>
-          <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png"
-            alt="Moon Icon"
-            className="w-[120px] sm:w-[160px] md:w-[210px] h-auto object-contain select-none"
-            draggable={false}
-          />
-        </FadeIn>
-      </div>
-
-      {/* Bottom-left: 3D Object */}
-      <div className="absolute bottom-[8%] left-[3%] sm:left-[6%] md:left-[10%] pointer-events-none z-10">
-        <FadeIn delay={0.25} x={-80} y={0} duration={0.9}>
-          <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/p59_1.4659672e.png"
-            alt="3D Object"
-            className="w-[100px] sm:w-[140px] md:w-[180px] h-auto object-contain select-none"
-            draggable={false}
-          />
-        </FadeIn>
-      </div>
-
-      {/* Top-right: Lego icon */}
-      <div className="absolute top-[4%] right-[1%] sm:right-[2%] md:right-[4%] pointer-events-none z-10">
-        <FadeIn delay={0.15} x={80} y={0} duration={0.9}>
-          <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/lego_icon-1.703bb594.png"
-            alt="Lego Icon"
-            className="w-[120px] sm:w-[160px] md:w-[210px] h-auto object-contain select-none"
-            draggable={false}
-          />
-        </FadeIn>
-      </div>
-
-      {/* Bottom-right: 3D Group */}
-      <div className="absolute bottom-[8%] right-[3%] sm:right-[6%] md:right-[10%] pointer-events-none z-10">
-        <FadeIn delay={0.3} x={80} y={0} duration={0.9}>
-          <img
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/Group_134-1.2e04f3ce.png"
-            alt="3D Group"
-            className="w-[130px] sm:w-[170px] md:w-[220px] h-auto object-contain select-none"
-            draggable={false}
-          />
-        </FadeIn>
-      </div>
+      {/* Subtle Glow Accents */}
+      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none" />
 
       {/* Central Content */}
-      <div className="relative z-20 flex flex-col items-center text-center max-w-4xl mx-auto w-full">
+      <div className="relative z-20 flex flex-col items-center text-center max-w-5xl mx-auto w-full">
+        {/* Category Pill */}
+        <FadeIn delay={0} y={20}>
+          <div className="inline-block px-4 py-1.5 rounded-full border border-[#D7E2EA]/20 bg-white/5 text-[#D7E2EA] uppercase tracking-widest text-xs font-medium mb-4">
+            Professional Summary
+          </div>
+        </FadeIn>
+
         {/* Heading */}
-        <FadeIn delay={0} y={40} className="w-full">
+        <FadeIn delay={0.1} y={40} className="w-full">
           <h2
             className="hero-heading font-black uppercase leading-none tracking-tight text-center"
-            style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
+            style={{ fontSize: 'clamp(2.8rem, 10vw, 130px)' }}
           >
-            About me
+            About Me
           </h2>
         </FadeIn>
 
-        {/* Spacing between heading & text */}
-        <div className="h-10 sm:h-14 md:h-16" />
+        {/* Spacing */}
+        <div className="h-8 sm:h-12" />
 
         {/* Animated paragraph */}
         <div className="w-full flex justify-center">
           <AnimatedText
             text={paragraphText}
-            className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[560px]"
+            className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[680px] text-sm sm:text-base md:text-lg"
           />
         </div>
 
-        {/* Spacing between text block & button */}
-        <div className="h-16 sm:h-20 md:h-24" />
+        {/* Spacing */}
+        <div className="h-12 sm:h-16" />
+
+        {/* 4 Metric Highlights */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full">
+          {highlights.map((item, idx) => (
+            <FadeIn
+              key={item.label}
+              delay={0.2 + idx * 0.1}
+              y={25}
+              className={`rounded-2xl border p-5 sm:p-6 text-left backdrop-blur-sm transition-all duration-300 hover:scale-105 ${item.color}`}
+            >
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 tracking-tight">
+                {item.value}
+              </div>
+              <div className="text-white font-semibold text-sm sm:text-base tracking-wide">
+                {item.label}
+              </div>
+              <div className="text-neutral-400 text-xs mt-1 leading-snug">
+                {item.detail}
+              </div>
+            </FadeIn>
+          ))}
+        </div>
+
+        {/* Spacing */}
+        <div className="h-12 sm:h-16" />
 
         {/* Contact button */}
-        <FadeIn delay={0.3} y={20}>
-          <ContactButton />
+        <FadeIn delay={0.4} y={20}>
+          <ContactButton href="#contact" />
         </FadeIn>
       </div>
     </section>
