@@ -1,6 +1,6 @@
 import { FadeIn } from '../components/FadeIn'
 import { ContactButton } from '../components/ContactButton'
-import { ThreeDCharacter } from '../components/ThreeDCharacter'
+import { Magnet } from '../components/Magnet'
 
 export function HeroSection() {
   const navLinks = [
@@ -13,7 +13,7 @@ export function HeroSection() {
   ]
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-between overflow-x-clip bg-[#0C0C0C] select-none pb-6">
+    <section className="relative h-screen flex flex-col justify-between overflow-x-clip bg-[#0C0C0C] select-none pb-4 sm:pb-6">
       {/* Navbar */}
       <FadeIn delay={0} y={-20} className="w-full relative z-20">
         <nav className="flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8 w-full max-w-7xl mx-auto">
@@ -52,10 +52,22 @@ export function HeroSection() {
         </FadeIn>
       </div>
 
-      {/* Central 3D Character in Motion with Three.js WebGL & Volumetric Pixels */}
-      <div className="relative my-2 sm:my-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2 z-10 w-[320px] sm:w-[400px] md:w-[480px] lg:w-[540px] sm:bottom-0 sm:top-auto sm:translate-y-0 mx-auto pointer-events-auto">
+      {/* Clean 3D Character Placeholder with Magnet */}
+      <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[270px] sm:w-[340px] md:w-[420px] lg:w-[480px] bottom-0 pointer-events-auto">
         <FadeIn delay={0.3} y={30}>
-          <ThreeDCharacter imageSrc="/images/piyush_hero.jpg" />
+          <Magnet
+            padding={150}
+            strength={3}
+            activeTransition="transform 0.3s ease-out"
+            inactiveTransition="transform 0.6s ease-in-out"
+          >
+            <img
+              src="/images/character_hero.png"
+              alt="Piyush Raj Sharma - 3D Creator &amp; Data Analyst"
+              className="w-full h-auto object-contain pointer-events-none drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)]"
+              draggable={false}
+            />
+          </Magnet>
         </FadeIn>
       </div>
 
