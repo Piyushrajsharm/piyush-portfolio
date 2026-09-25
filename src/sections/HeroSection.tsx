@@ -1,6 +1,7 @@
 import { FadeIn } from '../components/FadeIn'
 import { ContactButton } from '../components/ContactButton'
 import { Magnet } from '../components/Magnet'
+import { ElectricPortrait } from '../components/ElectricPortrait'
 
 export function HeroSection() {
   const navLinks = [
@@ -52,8 +53,8 @@ export function HeroSection() {
         </FadeIn>
       </div>
 
-      {/* Central Visual with Magnet */}
-      <div className="relative my-4 sm:my-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2 z-10 w-[260px] sm:w-[320px] md:w-[400px] lg:w-[460px] sm:top-1/2 sm:-translate-y-1/2 mx-auto pointer-events-auto">
+      {/* Central Portrait with Magnet & Interactive Electric Lightning Canvas */}
+      <div className="relative my-4 sm:my-0 sm:absolute sm:left-1/2 sm:-translate-x-1/2 z-10 w-[280px] sm:w-[320px] md:w-[360px] lg:w-[410px] sm:bottom-0 sm:top-auto sm:translate-y-0 mx-auto pointer-events-auto">
         <FadeIn delay={0.4} y={30}>
           <Magnet
             padding={150}
@@ -61,15 +62,7 @@ export function HeroSection() {
             activeTransition="transform 0.3s ease-out"
             inactiveTransition="transform 0.6s ease-in-out"
           >
-            <div className="relative group cursor-pointer">
-              <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-cyan-500/40 via-purple-500/40 to-pink-500/40 blur-xl opacity-75 group-hover:opacity-100 transition duration-500" />
-              <img
-                src="/images/data_analyst_hero.jpg"
-                alt="Piyush Raj Sharma - Data Analytics & BI Intelligence"
-                className="relative rounded-full w-full h-auto object-cover border-2 border-cyan-400/40 shadow-2xl pointer-events-none"
-                draggable={false}
-              />
-            </div>
+            <ElectricPortrait imageSrc="/images/piyush_hero.jpg" />
           </Magnet>
         </FadeIn>
       </div>
